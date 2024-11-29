@@ -9,8 +9,8 @@ import './globals.css'
 import App from './app'
 
 export const metadata: Metadata = {
-	title: 'Klub Koi | Virtual Casino',
-	description: 'Step into the future of gaming with our 3D virtual casino metaverse! Experience the thrill of high-stakes gameplay, immersive environments, and social interaction like never before. Join players from around the world in a vibrant digital landscape filled with exciting casino games, events, and unique rewards. Whether you’re a seasoned player or new to the scene, our metaverse offers endless entertainment and opportunities to win big. Dive into a world where reality meets fantasy—your ultimate gaming adventure awaits!'
+	title: 'Common Access | Wearable Hard Wallet',
+	description: 'Most Secure, Ultra Comfy Wallet for Bitcoin Hodlers'
 
 }
 
