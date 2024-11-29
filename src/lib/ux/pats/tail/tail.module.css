@@ -1,0 +1,29 @@
+.wrapper {
+	background-color: white;
+}
+
+.copyright {
+	color: rgb(128, 128, 128);
+	text-align: center;
+	padding: 24px;
+}
+
+.ctrlBlock {
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: space-between;
+	border-bottom: 1.6px solid #ebebeb;
+	border-top: 1.6px solid #ebebeb;
+	padding: 24px;
+}
+
+.quicklinks {
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1.6px solid #ebebeb;
+	border-radius: 12px;
+	padding: 16px;
+	margin: 24px;
+}

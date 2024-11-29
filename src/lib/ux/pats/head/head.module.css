@@ -1,0 +1,62 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1.6px solid #ebebeb;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 8px;
+	background-color: white;
+
+}
+
+.colliders {
+	display: grid;
+	grid-auto-flow: row;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+.brand {
+	/* background-color: blue; */
+	cursor: pointer;
+	justify-self: center;
+	margin-bottom: -1px;
+}
+
+.ctrls {
+	/* background-color: orange; */
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 32px;
+	justify-self: right;
+}
+
+.access {
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	grid-gap: 4px;
+}
+
+.wrapper input {
+	display: none;
+}
+
+.wrapper button {
+	display: none;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 480px) {
+	.wrapper input {
+		display: grid;
+	}
+
+	.wrapper button {
+		display: flex;
+	}
+}
